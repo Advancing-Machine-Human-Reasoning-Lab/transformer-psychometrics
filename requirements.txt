@@ -1,0 +1,11 @@
+matplotlib
+pandas
+numpy
+scikit-learn-extra
+sklearn
+scipy
+rpy2
+torch
+torchtext
+simpletransformers
+wandb
