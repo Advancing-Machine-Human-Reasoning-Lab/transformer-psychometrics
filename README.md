@@ -1,9 +1,7 @@
 # Can Transformer Language Models Predict Psychometric Properties?
 
 
-Code to reproduce experiments in our *SEM 2021 Paper
-
-This folder contains supplementary material to aid in reproducing our results.
+Code to reproduce experiments in our *SEM 2021 Paper.
 
 # Reproducing the human experiment results
 
@@ -62,20 +60,21 @@ Please see each of these scripts for further details and necessary packages, as 
 If you want to use or reference this work, please cite the following:
 
 ```
-@article{DBLP:journals/corr/abs-2106-06849,
-  author    = {Antonio Laverghetta Jr. and
-               Animesh Nighojkar and
-               Jamshidbek Mirzakhalov and
-               John Licato},
-  title     = {Can Transformer Language Models Predict Psychometric Properties?},
-  journal   = {CoRR},
-  volume    = {abs/2106.06849},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2106.06849},
-  archivePrefix = {arXiv},
-  eprint    = {2106.06849},
-  timestamp = {Tue, 15 Jun 2021 16:35:15 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2106-06849.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{laverghetta-jr-etal-2021-transformer,
+    title = "Can Transformer Language Models Predict Psychometric Properties?",
+    author = "Laverghetta Jr., Antonio  and
+      Nighojkar, Animesh  and
+      Mirzakhalov, Jamshidbek  and
+      Licato, John",
+    booktitle = "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.starsem-1.2",
+    doi = "10.18653/v1/2021.starsem-1.2",
+    pages = "12--25",
+    abstract = "Transformer-based language models (LMs) continue to advance state-of-the-art performance on NLP benchmark tasks, including tasks designed to mimic human-inspired {``}commonsense{''} competencies. To better understand the degree to which LMs can be said to have certain linguistic reasoning skills, researchers are beginning to adapt the tools and concepts of the field of psychometrics. But to what extent can the benefits flow in the other direction? I.e., can LMs be of use in predicting what the psychometric properties of test items will be when those items are given to human participants? We gather responses from numerous human participants and LMs (transformer- and non-transformer-based) on a broad diagnostic test of linguistic competencies. We then use the responses to calculate standard psychometric properties of the items in the diagnostic test, using the human responses and the LM responses separately. We then determine how well these two sets of predictions match. We find cases in which transformer-based LMs predict psychometric properties consistently well in certain categories but consistently poorly in others, thus providing new insights into fundamental similarities and differences between human and LM reasoning.",
 }
+
 ```
